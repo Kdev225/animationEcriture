@@ -1,0 +1,44 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    font-size: 45px;
+    color: whitesmoke;
+    /* width: 1000px; */
+    height: 600px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.cursor{
+    margin-bottom: 2px;
+    margin-left: 20px;
+}
+span{
+    color: rgb(40, 233, 22);
+
+}
+.cursor:after{
+    content: '';
+    height: 50px;
+    top: 275px;
+    width: 5px;
+    position: absolute;
+    background-color: rgb(40, 233, 22);
+    animation: light 0.8s linear infinite;
+}
+
+
+
+@keyframes light {
+    to{
+        opacity: 0;
+    }
+    from{
+        opacity: 1;
+    }
+}
