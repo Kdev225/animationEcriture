@@ -9,17 +9,18 @@ body{
     align-items: center;
     background-color: black;
     font-size: 45px;
-    color: whitesmoke;
+    color: rgb(186, 219, 235);
     /* width: 1000px; */
     height: 600px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .cursor{
     margin-bottom: 2px;
     margin-left: 20px;
 }
 span{
-    color: rgb(40, 233, 22);
+    color: rgb(14, 146, 199);
 
 }
 .cursor:after{
@@ -28,7 +29,7 @@ span{
     top: 275px;
     width: 5px;
     position: absolute;
-    background-color: rgb(40, 233, 22);
+    background-color: rgb(14, 146, 199);
     animation: light 0.8s linear infinite;
 }
 
